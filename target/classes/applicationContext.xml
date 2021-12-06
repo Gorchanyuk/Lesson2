@@ -10,7 +10,7 @@
 
 
         <bean id="application"
-              class="lesson2.Application"
+              class="lesson2.postConstruct.preDestroy.Application"
               init-method="postConstruct"
               destroy-method="preDestroy"/>
 

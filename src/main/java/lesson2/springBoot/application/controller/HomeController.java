@@ -12,6 +12,7 @@ public class HomeController {
     private String state_2 = "Empty2";
 
 
+
     @PostMapping("/state")
     public void state(@RequestBody StateDto request) {
         state_1 = request.getValue_1();
